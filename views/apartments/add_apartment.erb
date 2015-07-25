@@ -1,11 +1,6 @@
-<ul>
-<% $apartments.each do |apartment| %>
-  <li><%= apartment.status %></li>
-<% end %>
-</ul>
+<h2>Add New Apartment</h2>
 
-<form method="get" action="/">
-  <!-- <input type="text" name="apartment_name" placeholder="Enter apartment name"> -->
+<form method="post" action="/">
   <input type="text" name="address" placeholder="Enter apartment address">
   <input type="text" name="rent" placeholder="Enter apartment rent">
   <input type="text" name="sqft" placeholder="Enter apartment sqft">
